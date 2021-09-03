@@ -59,6 +59,12 @@
       "name": "Renaud Erbe",
       "address": "30 Westridge Pass",
       "email": "rerbe9@psu.edu"
+    },
+    {
+      "name": "Billybob",
+      "address": "Billybob's house",
+      "email": "billybob@billybob.gov",
+      "id": 11
     }
   ],
   "employees": [
@@ -71,6 +77,11 @@
       "id": 2,
       "name": "Rose Schmitt",
       "specialty": "Printers"
+    },
+    {
+      "name": "Alicia",
+      "specialty": "also dogs probably",
+      "id": 3
     }
   ],
   "serviceTickets": [
@@ -89,6 +100,30 @@
       "description": "Cannot connect to any wifi.",
       "emergency": true,
       "dateCompleted": ""
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "employeeId": 2,
+      "description": "It don't work no more.",
+      "emergency": true,
+      "dateCompleted": "2021-06-27"
+    },
+    {
+      "id": 4,
+      "customerId": 3,
+      "employeeId": 4,
+      "description": "iPhone case cracked. Please replace.",
+      "emergency": false,
+      "dateCompleted": "2021-05-26"
+    },
+    {
+      "description": "My compooter don't work no good.",
+      "emergency": true,
+      "customerId": 11,
+      "employeeId": 1,
+      "dateCompleted": "",
+      "id": 5
     }
   ]
 }
